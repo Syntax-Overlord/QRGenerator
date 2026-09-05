@@ -1,4 +1,5 @@
 import qrcode  # Main library responsible for creating QR codes
+from qrcode.constants import ERROR_CORRECT_L
 
 
 # Main class for generating QR codes
@@ -12,7 +13,7 @@ class QRCodeGenerator:
         """Generates a QR code image"""
         qr = qrcode.QRCode(
             version=1,
-            error_correction=qrcode.constants.ERROR_CORRECT_L,
+            error_correction=ERROR_CORRECT_L,
             box_size=10,
             border=4,
         )
