@@ -25,6 +25,7 @@ htmlcov/
 # Generated QR code images
 qr_code*.png
 placementCellQR.png
+*.png
 
 # Editor and operating-system files
 .vscode/
