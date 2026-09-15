@@ -6,7 +6,7 @@ from qrcode.constants import ERROR_CORRECT_L
 class QRCodeGenerator:
     def __init__(self, data, filename):
         self.data = data
-        self.filename = filename
+        self.filename = filename + ".png"
 
     # Generates a QR code image
     def generate(self):
